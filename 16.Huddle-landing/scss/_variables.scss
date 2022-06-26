@@ -1,0 +1,40 @@
+/* VARIABLES */
+:root {
+  /* Colors */
+  --clr-primary: hsl(322, 100%, 66%);
+
+  --clr-neutral1: hsl(193, 100%, 96%);
+  --clr-neutral2: hsl(192, 100%, 9%);
+  --clr-neutral3: hsl(208, 11%, 55%);
+
+  /* Font & Typography */
+
+  --fnt-primary: "Open Sans", sans-serif;
+  --fnt-secondary: "Poppins", sans-serif;
+
+  --fnt-bold: 700;
+  --fnt-semibold: 600;
+  --fnt-regular: 400;
+
+  --fnt-big: 3.125rem;
+  --fnt-medium: 2.5rem;
+  --fnt-normal: 2rem;
+  --fnt-small: 1.6rem;
+  --fnt-xsmall: 1.4rem;
+
+  @media screen and (max-width: 768px) {
+    --fnt-big: 2.8rem;
+    --fnt-medium: 2.2rem;
+    --fnt-normal: 1.8rem;
+    --fnt-small: 1.4rem;
+    --fnt-xsmall: 1.2rem;
+  }
+
+  @media screen and (min-width: 1660px) {
+    --fnt-big: 3.4rem;
+    --fnt-medium: 2.8rem;
+    --fnt-normal: 2.2rem;
+    --fnt-small: 2rem;
+    --fnt-xsmall: 1.6rem;
+  }
+}

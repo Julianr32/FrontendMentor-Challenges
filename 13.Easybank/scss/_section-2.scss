@@ -1,0 +1,39 @@
+.section-2 {
+  background-color: var(--light-gray-blue);
+  text-align: center;
+
+  @media (min-width: 992px) {
+    text-align: left;
+
+    .features-wrapper {
+      .sub {
+        width: 500px;
+      }
+    }
+  }
+}
+
+.features {
+  margin-top: 5rem;
+
+  .feature {
+    max-width: 300px;
+    display: grid;
+    place-items: center;
+
+    @media (min-width: 768px) {
+      text-align: left;
+      place-items: flex-start;
+    }
+
+    &__img {
+      width: 7rem;
+    }
+
+    h3 {
+      font-size: var(--normal-fnt);
+      font-weight: var(--regular-fnt);
+      margin: 2rem 0;
+    }
+  }
+}

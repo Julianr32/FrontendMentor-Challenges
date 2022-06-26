@@ -1,0 +1,29 @@
+:root {
+  /* Primary */
+  --dark-blue: hsl(233, 26%, 24%);
+  --lime-green: hsl(136, 65%, 51%);
+  --bright-cyan: hsl(192, 70%, 51%);
+  /*  Neutral */
+  --gray-blue: hsl(233, 8%, 62%);
+  --light-gray-blue: hsl(220, 16%, 96%);
+  --xlight-gray-blue: hsl(0, 0%, 98%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  /*  Font & Typo */
+  --big-fnt: 4.8rem;
+  --medium-fnt: 3.1rem;
+  --normal-fnt: 2.5rem;
+  --small-fnt: 2rem;
+  --xsmall-fnt: 1.4rem;
+
+  @media (max-width: 768px) {
+    --big-fnt: 3.4rem;
+    --medium-fnt: 2.5rem;
+    --normal-fnt: 2rem;
+    --small-fnt: 1.6rem;
+    --xsmall-fnt: 1.4rem;
+  }
+  --bold-fnt: 700;
+  --semibold-fnt: 400;
+  --regular-fnt: 300;
+}

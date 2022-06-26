@@ -1,0 +1,46 @@
+.section-3 {
+  background-color: var(--xlight-gray-blue);
+}
+
+.articles {
+  margin-top: 5rem;
+
+  .article {
+    background-color: var(--clr-white);
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.076);
+
+    &__img {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 22rem;
+    }
+
+    &__text {
+      padding: 2.5rem;
+
+      small {
+        font-size: 1.2rem;
+        color: var(--gray-blue);
+      }
+
+      h4 {
+        color: var(--dark-blue);
+        font-size: var(--small-fnt);
+        font-weight: var(--regular-fnt);
+        line-height: 1;
+        margin: 1rem 0;
+        transition: all 0.15s;
+
+        &:hover {
+          cursor: pointer;
+          color: var(--bright-cyan);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-weight: var(--regular-fnt);
+  font-family: "Public Sans", sans-serif;
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--semibold-fnt);
+  color: var(--dark-blue);
+}
+
+p {
+  color: var(--gray-blue);
+  font-size: var(--xsmall-fnt);
+}

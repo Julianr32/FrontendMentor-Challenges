@@ -1,0 +1,114 @@
+/* ====GOOGLE-FONTS==== */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+/* ====END-GOOGLE-FONTS==== */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.align-center {
+  display: grid;
+  place-items: center;
+}
+
+.main {
+  border: 2px solid red;
+  height: 100vh;
+  padding: 4rem 1rem;
+}
+.main__header-logo {
+  width: 60px;
+}
+.main__header h1 {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #969696;
+}
+.main__header h1 span {
+  color: #151f29;
+  font-weight: 700;
+}
+.main__header p {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  color: #151f29;
+}
+.main__form {
+  margin: 4rem 0;
+  width: 90%;
+  max-width: 300px;
+}
+.main__form input {
+  width: 100%;
+  padding: 1.25rem;
+  font-size: 1.3rem;
+  display: block;
+  border-radius: 100vw;
+  outline: none;
+  border: none;
+}
+.main__form .email-input {
+  margin-bottom: 1.5rem;
+  border: 1px solid #969696;
+}
+.main__form .email-input::placeholder {
+  color: #969696;
+}
+.main__form .email-input:focus {
+  border: 1px solid #4f7df3;
+}
+.main__form .form-btn {
+  background-color: #4f7df3;
+  color: white;
+}
+.main__img {
+  width: 300px;
+}
+.main__footer {
+  margin-top: 4rem;
+  border: 2px solid red;
+}
+.main__footer .social-media {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.main__footer .social-media .social-link {
+  text-decoration: none;
+  color: #4f7df3;
+  font-size: 1.5rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.main__footer .social-media .social-link:not(:last-of-type) {
+  margin-right: 2rem;
+}
+.main__footer p {
+  font-size: 1.2rem;
+  color: #969696;
+}

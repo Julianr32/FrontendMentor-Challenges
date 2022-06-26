@@ -1,0 +1,146 @@
+:root{
+    /* Colors */
+    --dark-cyan:hsl(158, 36%, 37%);
+    --cream-c:hsl(30, 38%, 92%);
+    --very-darkblue:hsl(212, 21%, 14%);
+    --dark-grayishblue:hsl(228, 12%, 48%);
+    --white:hsl(0, 0%, 100%);
+
+    /* Fonts */
+    --font-primary:'Montserrat', sans-serif;
+    --font-secondary:'Fraunces', serif;
+}
+
+* ,::before ,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--cream-c);
+    font-family: var(--font-primary);
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sub{
+    color: var(--dark-grayishblue);
+}
+/*.***********************************MAIN STYLES***********************************. */
+
+main{
+    min-height: 100vh;
+    padding: 2.85rem 1.5rem;
+    display: grid;
+    place-items: center;
+
+}
+
+.card{
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .05);
+    max-width: 375px;
+}
+
+.card-img{
+    height: 242px;
+    background: url(../images/image-product-mobile.jpg) no-repeat center center/cover;
+}
+
+.card-body{
+    background-color: var(--white);
+    padding:2.35rem;
+}
+
+.card-text .subtitle{
+    text-transform: uppercase;
+    letter-spacing:4.5px;
+    font-size: 1.1rem;
+}
+
+.card-text h1{
+    font-family: var(--font-secondary);
+    font-size: 3.2rem;
+    line-height: 1.06;
+    margin-block: 1.3rem;
+}
+
+.card-text p{
+    font-size: 1.3rem;
+    line-height: 1.82;
+}
+
+.card-price{
+    margin-top: 4.45rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card-price h2{
+    color: var(--dark-cyan);
+    font-family: var(--font-secondary);
+    font-size: 3.2rem;
+}
+
+.card-price span{
+    text-decoration:line-through;
+    font-size: 1.3rem;
+}
+
+.card-cta{
+    margin-top: 1.6rem;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--dark-cyan);
+    border: none;
+    outline: none;
+    padding-block: 1.65rem;
+    width: 100%;
+    border-radius: .5rem;
+    color: var(--white);
+    font-family: var(--font-primary);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--very-darkblue);
+}
+/*.**********************************MEDIA QUERYS*****************************. */
+@media (min-width: 768px){
+       
+    .card{
+        max-width: 538px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .card-img{
+        height: 100%;
+        background: url(../images/image-product-desktop.jpg) no-repeat center center/cover;
+    }
+
+    .card-body{
+        height: 100%;
+        padding: 3rem;
+
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: var(--dark-grayishblue); }

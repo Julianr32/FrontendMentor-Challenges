@@ -1,0 +1,46 @@
+:root {
+  /* Colors */
+  --clr-primary1: hsl(256, 26%, 20%);
+  --clr-primary2: hsl(216, 30%, 68%);
+
+  --clr-neutral1: hsl(270, 9%, 17%);
+  --clr-neutral2: hsl(273, 4%, 51%);
+  --clr-neutral3: hsl(0, 0%, 96%);
+  --clr-white: rgb(255, 255, 255);
+
+  /* Font & Typography */
+
+  --fnt-primary: "Karla", sans-serif;
+  --fnt-secondary: "DM Serif Display", serif;
+
+  --fnt-regular: 400;
+  --fnt-bold: 700;
+
+  --fnt-xlarge: 4.8rem;
+  --fnt-large: 3.2rem;
+  --fnt-medium: 2.2rem;
+  --fnt-normal: 1.8rem;
+  --fnt-small: 1.6rem;
+  --fnt-xsmall: 1.4rem;
+  --fnt-xxsmall: 1.2rem;
+
+  @media screen and (max-width: 350px) {
+    --fnt-xlarge: 4.4rem;
+    --fnt-large: 3rem;
+    --fnt-medium: 2rem;
+    --fnt-normal: 1.6rem;
+    --fnt-small: 1.4rem;
+    --fnt-xsmall: 1.2rem;
+    --fnt-xxsmall: 1rem;
+  }
+
+  @media screen and (min-width: 1660px) {
+    --fnt-xlarge: 5.2rem;
+    --fnt-large: 3.6rem;
+    --fnt-medium: 2.6rem;
+    --fnt-normal: 2.2rem;
+    --fnt-small: 2rem;
+    --fnt-xsmall: 1.8rem;
+    --fnt-xxsmall: 1.6rem;
+  }
+}

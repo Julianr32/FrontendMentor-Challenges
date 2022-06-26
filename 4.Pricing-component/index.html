@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+
+  <body>
+    <main class="main">
+      <div class="main-header">
+        <div class="main-heading">
+          <h1>Our Pricing</h1>
+        </div>
+
+        <div class="toggle-btn">
+          <span>Annual</span>
+          <input
+            id="checkbox"
+            class="check-btn"
+            type="checkbox"
+            name="Pricing"
+            aria-label="undefined"
+          />
+          <span>Monthly</span>
+        </div>
+      </div>
+
+      <!-- ====CARDS==== -->
+      <div class="cards-wrapper">
+        <!-- ====CARD BASIC==== -->
+        <div class="card">
+          <div class="card-header">
+            <span class="card-pack">Basic</span>
+            <h2 class="card-price price1"><span>$</span>199.99</h2>
+            <h2 class="card-price price2"><span>$</span>19.99</h2>
+          </div>
+
+          <ul class="card-body">
+            <li class="card-feature">500 GB Storage</li>
+            <li class="card-feature">2 Users Allowed</li>
+            <li class="card-feature">Send up to 3 GB</li>
+          </ul>
+
+          <div>
+            <a href="#" class="card-btn">Learn More</a>
+          </div>
+        </div>
+
+        <!-- ====CARD PROFESSIONAL==== -->
+        <div class="card">
+          <div class="card-header">
+            <span class="card-pack alt">Proffesional</span>
+            <h2 class="card-price price1 alt"><span>$</span>249.99</h2>
+            <h2 class="card-price price2 alt"><span>$</span>24.99</h2>
+          </div>
+
+          <ul class="card-body">
+            <li class="card-feature alt">1 TB Storage</li>
+            <li class="card-feature alt">5 Users Allowed</li>
+            <li class="card-feature alt">Send up to 10 GB</li>
+          </ul>
+
+          <div>
+            <a href="#" class="card-btn alt-btn">Learn More</a>
+          </div>
+        </div>
+
+        <!-- ====CARD MASTER==== -->
+        <div class="card">
+          <div class="card-header">
+            <span class="card-pack">Master</span>
+            <h2 class="card-price price1"><span>$</span>399.99</h2>
+            <h2 class="card-price price2"><span>$</span>39.99</h2>
+          </div>
+
+          <ul class="card-body">
+            <li class="card-feature">2 TB Storage</li>
+            <li class="card-feature">10 Users Allowed</li>
+            <li class="card-feature">Send up to 20 GB</li>
+          </ul>
+
+          <div>
+            <a href="#" class="card-btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- ==== END CARDS==== -->
+
+      <p class="copyright">
+        Challenge by Frontend Mentor. Coded by @Julian Rebolledo.
+      </p>
+
+      <img class="overlay-top" src="images/bg-top.svg" alt="" />
+      <img class="overlay-bottom" src="images/bg-bottom.svg" alt="" />
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
